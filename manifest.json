@@ -1,0 +1,16 @@
+{
+  "name": "YouTubeTV-Controller",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A Google Chrome extension to enable control the YouTubeTV website using an XBox Controller.",
+  "icons": { "128": "images/icon-128.png" },
+  "background": {
+    "persistent": false,
+    "scripts": ["main-event.js"]
+  },
+  "permissions": ["http://www.youtube.com/tv/*", "https://www.youtube.com/tv/*"],
+  "browser_action": {
+    "default_title": "YouTubeTV-Controller",
+    "default_icon": "images/icon-128.png"
+  }
+}
